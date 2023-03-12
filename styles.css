@@ -1,11 +1,53 @@
-body {
-    background-color: black;
-    color: white;
+* {
+ margin: 0px;
+ padding: 0px;
+
 }
 
-.cabecalho {
-    background-color: #383D58;
-    color: cyan;
-    display: flex;
-    justify-content: space-around;
+.header{
+    font-family: arial;
+ background-color: rgb(70, 44, 44);
+ height: 100px;
+
+ position: relative;
 }
+
+.logo{
+width: 90px;
+margin-left: 30px;
+margin-top: 4px;
+}
+
+.menu ul {
+ list-style: none;
+}
+
+.menu li{
+ display: inline;   
+ cursor: pointer;
+ padding: 6px;
+}
+
+.menu{
+position: absolute;
+right: 50px;
+bottom: 25px;
+}
+
+.p{
+
+font-family: arial;
+font-size: 20px;
+
+}
+
+.h1{
+position: relative;
+font-family: arial;
+font-size: 20px;
+right: 20px;
+
+}
+
+
+
