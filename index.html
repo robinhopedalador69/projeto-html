@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link href="style.css"/>
-    <title>Clubmarket</title>   
-    <style>
-    </style>
-    
-    <meta charset="utf-8">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Clubmarket</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/reset.css">
+<body class="body">
+     <header class="header">
+         <img class="logo"    src="assets/img/logo.png" alt="logo">
+             <nav class="menu">
+                  <ul>
+                     <li>Home</li>
+                     <li>Contato</li>
+                     <li>Sugestões</li>
+                  </ul>
+             </nav>
+     </header>
 
-    <h1 style="background-color:lightcoral;">Club market</h1>
-    <h1>Clubes da serie A</h1>
+        <h2>Clubes</h2>
+    <select onchange="location = this.value;">
+      
+     <option value="">Selecione seu clube</option >
+     <option value="https://www.athletico.com.br">Athletico pr</option>
+     <option value="https://atletico.com.br">Atletico mineiro</option>
+     <option value="https://www.botafogo.com.br">Botafogo</option>
+     <option value="https://www.corinthians.com.br">Corinthians</option>
+     <option value="https://www.flamengo.com.br">Flamengo</option>
+     <option value="https://www.gremio.net">Grêmio</option>
+     <option value="https://www.palmeiras.com.br">Palmeiras</option>
+     <option value="https://www.santosfc.com.br">Santos</option>
+     <option value="https://www.saopaulo.com.br">Sao paulo</option>
+     <option value="https://www.vasco.com.br">Vasco</option>
+    </select>
 
-    <h3>Informações que providenciamos.</h3>
-    <ul>
-        <li>Valor total do clube 
-        <li>Capital de giro
-        <li>Valor gasto no mercado de transferencias
-    </ul>
-    
+</body>
 
-<h4>Clubes</h4>
-<select name="time">
-    <option value="bota">Botafogo</option>
-    <option value="fla">Flamengo</option>
-    <option value="flu">Fluminense</option>
-    <option value="vasco">Vasco da Gama</option>
-    
-    <form>
-        <input type="button">
-        <button type="submit">Enviar</button>
-    
-    <div id="official-info"><h3></h3>
-   
-    </div>
-  </body>
+
+
 </html>
