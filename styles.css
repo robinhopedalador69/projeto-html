@@ -69,6 +69,7 @@ button:hover {
 }
 
 h1{
+    font-size: 400%;
     position: relative;
     right: 0%;
     left: 40%;
@@ -80,5 +81,26 @@ h1{
 span{
     position: relative;
     color: #f13e3e;
-    right: 6px;
+    right: 9px;
+}
+
+
+li{
+    position: relative;
+   font-family: arial;
+    text-decoration: none;
+    color: #e9e6e3;
+    font-size: 22px;
+    left: 75%;
+    list-style: none;
+    display: inline;
+    padding: 9px;
+    top: -70px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+li:hover{
+    opacity: 1;
+    width: 20px;
 }
