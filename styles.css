@@ -69,10 +69,10 @@ button:hover {
 }
 
 h1{
-    font-size: 400%;
+    font-size: 60px;
     position: relative;
     right: 0%;
-    left: 40%;
+    text-align: center;
     padding-top: 35px;
     color: #fff;
 
@@ -81,26 +81,37 @@ h1{
 span{
     position: relative;
     color: #f13e3e;
-    right: 9px;
+    right: 6px;
 }
 
-
-li{
+.nav, li{
     position: relative;
-   font-family: arial;
-    text-decoration: none;
-    color: #e9e6e3;
-    font-size: 22px;
-    left: 75%;
-    list-style: none;
+    color: #fff;
     display: inline;
-    padding: 9px;
-    top: -70px;
+    left: 80%;
+    font-size: 24px;  
+    top: -70px;  
+    padding: 12px;
     opacity: 0.8;
     cursor: pointer;
 }
 
 li:hover{
     opacity: 1;
-    width: 20px;
+}
+
+.txt-select{
+    position: flex;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    left: 40%;
+}
+
+
+.selector{
+    position: flex;
+    align-items: center;
+    left: 60%;
+
 }
